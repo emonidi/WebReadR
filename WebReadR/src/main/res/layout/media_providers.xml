@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"><![CDATA[
+
+    ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:background="@drawable/kapital_logo"
+        android:layout_gravity="left" />
+    ]]>
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView"
+        android:scrollbars="none"
+        android:background="#000">
+
+        <LinearLayout
+            android:id="@+id/mediaProviderFragment"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:tag="kapital"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/kapitalLogo"
+                android:layout_gravity="right|top"
+                android:tag="kapital"
+                android:background="@drawable/kapital_logo"
+                android:layout_margin="5dp"
+               />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:tag="dnes"
+
+                android:id="@+id/dnesLogo"
+                android:layout_margin="5dp"
+                android:background="@drawable/dnes" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+
+                android:layout_height="40dp"
+                android:id="@+id/dnevnikLogo"
+                android:tag="dnevnik"
+
+                android:background="@drawable/dnevnik"
+                android:layout_margin="5dp" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#f8f3f0"
+        android:id="@+id/horizontalScrollView2"
+        android:fillViewport="false" >
+
+        <LinearLayout
+            android:id="@+id/providerCategoriesLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+
+            android:layout_height="40dp"
+            android:background="#f8f3f0"
+            android:baselineAligned="false"></LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

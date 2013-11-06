@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<providers>
+    <provider>
+        <name>Капитал</name>
+        <id>kapital</id>
+        <logoUrl>http://www.capital.bg/i/61/ncl-logo.gif</logoUrl>
+        <categories>
+            <category>
+                <topic>България</topic>
+                <url>http://www.capital.bg/rss/?rubrid=2249</url>
+            </category>
+            <category>
+                <topic>Свят</topic>
+                <url>http://www.capital.bg/rss/?rubrid=2253</url>
+            </category>
+            <category>
+                <topic>Общество</topic>
+                <url>http://www.capital.bg/rss/?rubrid=2254</url>
+            </category>
+            <category>
+                <topic>Редакционни коментари</topic>
+                <url>http://www.capital.bg/rss/?rubrid=2255</url>
+            </category>
+            <category>
+                <topic>Седмицата</topic>
+                <url>http://www.capital.bg/rss/?rubrid=2260</url>
+            </category>
+            <category>
+                <topic>Компании</topic>
+                <url>http://www.capital.bg/rss/?rubrid=2268</url>
+            </category>
+            <category>
+                <topic>Стоки и продажби</topic>
+                <url>http://www.capital.bg/rss/?rubrid=2269</url>
+            </category>
+            <category>
+                <topic>Финанси</topic>
+                <url>http://www.capital.bg/rss/?rubrid=2271</url>
+            </category>
+            <category>
+                <topic>Технологии и наука</topic>
+                <url>http://www.capital.bg/rss/?rubrid=2274</url>
+            </category>
+        </categories>
+    </provider>
+    <provider>
+        <name>Днес.бг</name>
+        <id>dnes</id>
+        <logoUrl>http://www.capital.bg/i/61/ncl-logo.gif</logoUrl>
+        <categories>
+            <category>
+                <topic>Днес</topic>
+                <url>http://rss.dnes.bg/c/33162/f/539026/index.rss?today</url>
+            </category>
+            <category>
+                <topic>Бизнес</topic>
+                <url>http://rss.dnes.bg/c/33162/f/539027/index.rss?cat=3</url>
+            </category>
+            <category>
+                <topic>Общество</topic>
+                <url>http://rss.dnes.bg/c/33162/f/539028/index.rss?cat=2</url>
+            </category>
+        </categories>
+    </provider>
+</providers>

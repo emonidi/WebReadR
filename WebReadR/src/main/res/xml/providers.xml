@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<providers>
+    <provider>
+        <name>Капитал</name>
+
+            <category>
+                <topic>България</topic>
+                <url>http://www.google.com</url>
+            </category>
+
+    </provider>
+</providers>
